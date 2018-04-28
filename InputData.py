@@ -54,5 +54,5 @@ TRANS_MATRIX_CT = [
     [0,           0,        0,    0,            1]
 ]
 
-# Notes: (1) We accounted for increased cancer incidence but how are we accounting for increased sensitivity
+# Notes: (1) We accounted for increased cancer incidence but how are we accounting for increased sensitivity (better detection)
 #        (2) Need to adjust cost for appendicitis state to reflect lower rate of false positives
