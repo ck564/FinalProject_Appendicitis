@@ -4,10 +4,12 @@ import InputData as Data
 
 class HealthStates(Enum):
     Well = 0
-    Appendicitis = 1
-    PostAppendicitis = 2
-    Cancer = 3
-    Dead = 4
+    Appendicitis_norup = 1
+    Appendicitis_rup = 2
+    PostAppendicitis = 3
+    WellA = 4
+    Cancer = 5
+    Dead = 6
 
 
 class Screening(Enum):

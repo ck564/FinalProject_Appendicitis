@@ -106,7 +106,10 @@ class PatientCostUtilityMonitor:
                          self._parameters.get_annual_state_utility(next_state)) * self._parameters.get_delta_t()
 
         # add cost of screening
-        cost += self._parameters.get_screening_cost()
+        if Parameters.HealthStates.Well:
+            cost += self._parameters.get_screening_cost()
+        else:
+            cost += 0
 
         # update total discounted cost and utility (corrected for half-cycle effect)
         self._totalDiscountedCost += \
