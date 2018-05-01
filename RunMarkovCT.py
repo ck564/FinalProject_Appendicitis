@@ -14,3 +14,4 @@ simOutputs = cohort.simulate()
 # print outcomes (means and CIs)
 SupportMarkov.print_outcomes(simOutputs, 'Computed Tomography:')
 
+# print(simOutputs.get_costs())
