@@ -7,9 +7,8 @@ class HealthStates(Enum):
     Appendicitis_norup = 1
     Appendicitis_rup = 2
     PostAppendicitis = 3
-    WellA = 4
-    Cancer = 5
-    Dead = 6
+    Cancer = 4
+    Dead = 5
 
 
 class Screening(Enum):
