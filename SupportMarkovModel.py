@@ -60,7 +60,7 @@ def report_CEA_CBA(simOutputs_US, simOutputs_CT):
 
     # CE plane
     CEA.show_CE_plane(
-        title='CEA',
+        title='Cost-Effectiveness Analysis',
         x_label="Additional Discounted Utility",
         y_label='Additional Discounted Cost',
         show_names=True,

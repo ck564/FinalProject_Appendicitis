@@ -4,7 +4,7 @@ ALPHA = 0.05
 DISCOUNT_RATE = 0.03
 DELTA_T = 1 / 52
 POP_SIZE = 1000
-SIM_LENGTH = 70
+SIM_LENGTH = 95
 
 
 # Cost of Screening
